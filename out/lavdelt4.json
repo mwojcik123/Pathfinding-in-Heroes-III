@@ -1,0 +1,20 @@
+{
+    "sequences": [
+        {
+            "group": 0,
+            "frames": [
+                "lavdelt4.dir\\00_00.png",
+                "lavdelt4.dir\\00_01.png",
+                "lavdelt4.dir\\00_02.png",
+                "lavdelt4.dir\\00_03.png",
+                "lavdelt4.dir\\00_04.png",
+                "lavdelt4.dir\\00_05.png",
+                "lavdelt4.dir\\00_06.png",
+                "lavdelt4.dir\\00_07.png",
+                "lavdelt4.dir\\00_08.png"
+            ]
+        }
+    ],
+    "type": 67,
+    "format": 3
+}

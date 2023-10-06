@@ -16,6 +16,10 @@ class Assets:
         self.terr_08 = spritesheet("./test/terrain/terr_08.jpg")
         self.terr_09 = spritesheet("./test/terrain/terr_09.jpg")
 
+        self.cobble_road = spritesheet("./test/terrain/roads/cobble_road.png")
+        self.dirt_road = spritesheet("./test/terrain/roads/dirt_road.png")
+        self.stone_road = spritesheet("./test/terrain/roads/stone_road.png")
+
         self.skeleton = spritesheet("./test/objects/creatures/avwskel0.png")
         self.skeleton_images_list = self.skeleton.load_strip(
             (0, 0, 64, 64), 30, pygame.Color(0, 0, 0, 0))
@@ -30,7 +34,7 @@ class Assets:
 
         self.Player = pygame.image.load(os.path.join(
             'test', "objects", "heroes", 'ah01_e.png'))
-        self.sprite_data = {
+        self.sprite_terrain = {
             "Dirt": self.terr_00,
             "Grass": self.terr_02,
             "Lava": self.terr_07,
@@ -41,4 +45,9 @@ class Assets:
             "Sub": self.terr_06,
             "Swamp": self.terr_04,
             "Water": self.terr_08,
+        }
+        self.sprite_road = {
+            "Dirt": self.dirt_road,
+            "Gravel": self.cobble_road,
+            "Cobble": self.stone_road,
         }

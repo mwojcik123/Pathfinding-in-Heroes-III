@@ -4,6 +4,7 @@ from core.Scenario import Scenario
 import pygame
 from ex1 import astar
 from itertools import cycle
+from core.SoundControler import SoundControler
 # class Disease:
 #     def __init__(self, name, progress=0):
 #         self.name = name
@@ -27,23 +28,31 @@ class Game:
         self.screen = screen
         self.timer = timer
         self.assets = Assets()
+        self.sound_controler = SoundControler()
 
         self.units_controler = PlayerControler(self)
         self.objects_controler = ObjectControler(self)
         self.scenario = Scenario(self, "test.json")
-        print(self.assets.skeleton_images_list)
 
         self.tick_time = pygame.time.get_ticks()
         self.skl = cycle(self.assets.skeleton_images_list)
         self.now_cycle = next(cycle(self.assets.skeleton_images_list))
 
+        self.find_avilable_terrain()
+
         # self.path = self.units_controler.astar(self.scenario.shape,
         #                                        (self.units_controler.current_palyer.pos[1], self.units_controler.current_palyer.pos[0]), (4, 6))
         # print(self.path)
 
+    def find_avilable_terrain(self):
+        return self.units_controler.avilable_maze(self.scenario.shape,
+                                                  (self.units_controler.current_palyer.pos[0], self.units_controler.current_palyer.pos[1]))
+
     def find_path(self, pos):
-        self.units_controler.astar(self.scenario.shape,
-                                   (self.units_controler.current_palyer.pos[1], self.units_controler.current_palyer.pos[0]), pos)
+        # self.units_controler.astar(self.scenario.shape,
+        #                            (self.units_controler.current_palyer.pos[1], self.units_controler.current_palyer.pos[0]), pos)
+
+        self.units_controler.astarv2(self.scenario.shape, pos)
 
     def Run(self):
         # print(pygame.time.get_ticks())
@@ -54,12 +63,15 @@ class Game:
         #                      (e[0]*32, e[1]*32))
         for i in self.scenario.terrain_maze:
             self.screen.blit(i.image, (i.pos[0] * 32, i.pos[1] * 32))
-
+        for road in self.scenario.road_maze:
+            self.screen.blit(
+                road.image, (road.pos[0] * 32, road.pos[1] * 32+16, 0, 0))
         for i in self.scenario.terrain_objects:
-            self.screen.blit(i.image, (i.pos[0] * 32, i.pos[1] * 32))
+            i.draw(self.screen)
 
         self.screen.blit(self.units_controler.current_palyer.image,
                          (self.units_controler.current_palyer.pos[0]*32-32, self.units_controler.current_palyer.pos[1]*32-32))
+        # self.screen.blit(self.scenario.asse.images[0], (0, 0))
 
         if (pygame.time.get_ticks() - self.tick_time > 200):
             self.tick_time = pygame.time.get_ticks()
@@ -77,7 +89,8 @@ class Game:
 
 
 pygame.init()
-screen = pygame.display.set_mode((800, 800))
+pygame.mixer.init()
+screen = pygame.display.set_mode((900, 900))
 clock = pygame.time.Clock()
 running = True
 game = Game(screen, clock)
@@ -91,7 +104,7 @@ while running:
             running = False
         if event.type == pygame.MOUSEBUTTONUP:
             xy = pygame.mouse.get_pos()
-            print(xy[0]//32)
+            # print(xy[0]//32)
             game.find_path((xy[1]//32, xy[0]//32))
     pygame.display.flip()
     clock.tick(60)
@@ -99,7 +112,7 @@ pygame.quit()
 
 
 units = game.units_controler.units
-print(units)
+# print(units)
 # game.units_controler.attacking(units[0], units[1])
 # game.units_controler.attacking(units[0], units[1])
 # game.units_controler.attacking(units[0], units[1])

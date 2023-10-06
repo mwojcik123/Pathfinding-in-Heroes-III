@@ -1,0 +1,27 @@
+{
+    "sequences": [
+        {
+            "group": 0,
+            "frames": [
+                "avmgorf0.dir\\00_00.png",
+                "avmgorf0.dir\\00_01.png",
+                "avmgorf0.dir\\00_02.png",
+                "avmgorf0.dir\\00_03.png",
+                "avmgorf0.dir\\00_04.png",
+                "avmgorf0.dir\\00_05.png",
+                "avmgorf0.dir\\00_06.png",
+                "avmgorf0.dir\\00_07.png",
+                "avmgorf0.dir\\00_08.png",
+                "avmgorf0.dir\\00_09.png",
+                "avmgorf0.dir\\00_10.png",
+                "avmgorf0.dir\\00_11.png",
+                "avmgorf0.dir\\00_12.png",
+                "avmgorf0.dir\\00_13.png",
+                "avmgorf0.dir\\00_14.png",
+                "avmgorf0.dir\\00_15.png"
+            ]
+        }
+    ],
+    "type": 67,
+    "format": 3
+}

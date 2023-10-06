@@ -17,7 +17,7 @@
       "allowedAlignments": null,
       "townTypes": 0,
       "townConflux": null,
-      "hasRandomTown": true,
+      "hasRandomTown": false,
       "hasMainTown": false,
       "mainTown": null,
       "startingHero": {
@@ -53,7 +53,7 @@
       "allowedAlignments": null,
       "townTypes": 0,
       "townConflux": null,
-      "hasRandomTown": true,
+      "hasRandomTown": false,
       "hasMainTown": false,
       "mainTown": null,
       "startingHero": {
@@ -71,7 +71,7 @@
       "allowedAlignments": null,
       "townTypes": 0,
       "townConflux": null,
-      "hasRandomTown": true,
+      "hasRandomTown": false,
       "hasMainTown": false,
       "mainTown": null,
       "startingHero": {
@@ -89,7 +89,7 @@
       "allowedAlignments": null,
       "townTypes": 0,
       "townConflux": null,
-      "hasRandomTown": true,
+      "hasRandomTown": false,
       "hasMainTown": false,
       "mainTown": null,
       "startingHero": {
@@ -107,7 +107,7 @@
       "allowedAlignments": null,
       "townTypes": 0,
       "townConflux": null,
-      "hasRandomTown": true,
+      "hasRandomTown": false,
       "hasMainTown": false,
       "mainTown": null,
       "startingHero": {
@@ -1277,7 +1277,7 @@
     {
       "terrain": { "type": "Sand", "sprite": 16 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 14 },
       "mirror": []
     },
     {
@@ -1313,7 +1313,7 @@
     {
       "terrain": { "type": "Sand", "sprite": 1 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 14 },
       "mirror": []
     },
     {
@@ -1493,7 +1493,7 @@
     {
       "terrain": { "type": "Swamp", "sprite": 37 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 11 },
       "mirror": ["TerrainVertical"]
     },
     {
@@ -1529,7 +1529,7 @@
     {
       "terrain": { "type": "Swamp", "sprite": 37 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 11 },
       "mirror": []
     },
     {
@@ -1559,20 +1559,20 @@
     {
       "terrain": { "type": "Grass", "sprite": 17 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 5 },
       "mirror": []
     },
     {
       "terrain": { "type": "Grass", "sprite": 19 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 13 },
       "mirror": ["TerrainVertical", "TerrainHorizontal"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 50 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Cobble", "sprite": 15 },
+      "mirror": ["RoadVertical"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 50 },
@@ -1709,7 +1709,7 @@
     {
       "terrain": { "type": "Swamp", "sprite": 39 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 10 },
       "mirror": ["TerrainHorizontal"]
     },
     {
@@ -1726,7 +1726,7 @@
     },
     {
       "terrain": { "type": "Swamp", "sprite": 29 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 9 },
       "road": { "type": "None", "sprite": 0 },
       "mirror": []
     },
@@ -1745,7 +1745,7 @@
     {
       "terrain": { "type": "Swamp", "sprite": 38 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 11 },
       "mirror": ["TerrainVertical", "TerrainHorizontal"]
     },
     {
@@ -1769,14 +1769,14 @@
     {
       "terrain": { "type": "Swamp", "sprite": 45 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 5 },
       "mirror": []
     },
     {
       "terrain": { "type": "Grass", "sprite": 48 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical"]
+      "road": { "type": "Cobble", "sprite": 2 },
+      "mirror": ["TerrainVertical", "RoadVertical", "RoadHorizontal"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 31 },
@@ -1835,7 +1835,7 @@
     {
       "terrain": { "type": "Lava", "sprite": 38 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Gravel", "sprite": 14 },
       "mirror": ["TerrainVertical", "TerrainHorizontal"]
     },
     {
@@ -1925,7 +1925,7 @@
     {
       "terrain": { "type": "Swamp", "sprite": 54 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 11 },
       "mirror": []
     },
     {
@@ -1942,51 +1942,56 @@
     },
     {
       "terrain": { "type": "Swamp", "sprite": 60 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 0 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "mirror": ["RiverHorizontal"]
     },
     {
       "terrain": { "type": "Swamp", "sprite": 51 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 11 },
       "road": { "type": "None", "sprite": 0 },
       "mirror": []
     },
     {
       "terrain": { "type": "Swamp", "sprite": 54 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 3 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "mirror": ["RiverVertical"]
     },
     {
       "terrain": { "type": "Swamp", "sprite": 56 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Cobble", "sprite": 1 },
+      "mirror": ["RoadHorizontal"]
     },
     {
       "terrain": { "type": "Swamp", "sprite": 52 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 13 },
       "mirror": []
     },
     {
       "terrain": { "type": "Swamp", "sprite": 51 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 12 },
       "mirror": []
     },
     {
       "terrain": { "type": "Swamp", "sprite": 39 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 12 },
       "mirror": []
     },
     {
       "terrain": { "type": "Swamp", "sprite": 36 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical", "TerrainHorizontal"]
+      "road": { "type": "Cobble", "sprite": 3 },
+      "mirror": [
+        "TerrainVertical",
+        "TerrainHorizontal",
+        "RoadVertical",
+        "RoadHorizontal"
+      ]
     },
     {
       "terrain": { "type": "Water", "sprite": 17 },
@@ -2009,7 +2014,7 @@
     {
       "terrain": { "type": "Grass", "sprite": 26 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Gravel", "sprite": 14 },
       "mirror": []
     },
     {
@@ -2051,7 +2056,7 @@
     {
       "terrain": { "type": "Lava", "sprite": 66 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Gravel", "sprite": 10 },
       "mirror": []
     },
     {
@@ -2141,7 +2146,7 @@
     {
       "terrain": { "type": "Swamp", "sprite": 18 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 11 },
       "mirror": ["TerrainVertical"]
     },
     {
@@ -2170,15 +2175,15 @@
     },
     {
       "terrain": { "type": "Swamp", "sprite": 13 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 3 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical"]
+      "mirror": ["TerrainVertical", "RiverHorizontal"]
     },
     {
       "terrain": { "type": "Swamp", "sprite": 56 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 3 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "mirror": ["RiverVertical"]
     },
     {
       "terrain": { "type": "Swamp", "sprite": 49 },
@@ -2225,14 +2230,14 @@
     {
       "terrain": { "type": "Grass", "sprite": 25 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Gravel", "sprite": 2 },
+      "mirror": ["RoadHorizontal"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 65 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Gravel", "sprite": 2 },
+      "mirror": ["RoadVertical"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 54 },
@@ -2255,20 +2260,20 @@
     {
       "terrain": { "type": "Grass", "sprite": 45 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Gravel", "sprite": 4 },
       "mirror": []
     },
     {
       "terrain": { "type": "Lava", "sprite": 48 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Gravel", "sprite": 12 },
       "mirror": ["TerrainVertical"]
     },
     {
       "terrain": { "type": "Lava", "sprite": 29 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainHorizontal"]
+      "road": { "type": "Gravel", "sprite": 0 },
+      "mirror": ["TerrainHorizontal", "RoadVertical", "RoadHorizontal"]
     },
     {
       "terrain": { "type": "Lava", "sprite": 30 },
@@ -2357,8 +2362,8 @@
     {
       "terrain": { "type": "Swamp", "sprite": 16 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainHorizontal"]
+      "road": { "type": "Dirt", "sprite": 14 },
+      "mirror": ["TerrainHorizontal", "RoadHorizontal"]
     },
     {
       "terrain": { "type": "Swamp", "sprite": 16 },
@@ -2392,21 +2397,21 @@
     },
     {
       "terrain": { "type": "Swamp", "sprite": 68 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 2 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "mirror": ["RiverHorizontal"]
     },
     {
       "terrain": { "type": "Swamp", "sprite": 57 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 12 },
       "road": { "type": "None", "sprite": 0 },
       "mirror": []
     },
     {
       "terrain": { "type": "Swamp", "sprite": 19 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 0 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "mirror": ["RiverVertical"]
     },
     {
       "terrain": { "type": "Swamp", "sprite": 47 },
@@ -2447,14 +2452,14 @@
     {
       "terrain": { "type": "Grass", "sprite": 50 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Gravel", "sprite": 5 },
+      "mirror": ["RoadHorizontal"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 52 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Gravel", "sprite": 4 },
+      "mirror": ["RoadVertical"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 54 },
@@ -2465,14 +2470,14 @@
     {
       "terrain": { "type": "Grass", "sprite": 67 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Gravel", "sprite": 5 },
       "mirror": []
     },
     {
       "terrain": { "type": "Grass", "sprite": 26 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical"]
+      "road": { "type": "Gravel", "sprite": 4 },
+      "mirror": ["TerrainVertical", "RoadVertical", "RoadHorizontal"]
     },
     {
       "terrain": { "type": "Water", "sprite": 1 },
@@ -2591,7 +2596,7 @@
     {
       "terrain": { "type": "Dirt", "sprite": 19 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 14 },
       "mirror": []
     },
     {
@@ -2620,15 +2625,15 @@
     },
     {
       "terrain": { "type": "Swamp", "sprite": 17 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 3 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical", "TerrainHorizontal"]
+      "mirror": ["TerrainVertical", "TerrainHorizontal", "RiverHorizontal"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 43 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 1 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical", "TerrainHorizontal"]
+      "mirror": ["TerrainVertical", "TerrainHorizontal", "RiverVertical"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 28 },
@@ -2669,20 +2674,20 @@
     {
       "terrain": { "type": "Grass", "sprite": 49 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Gravel", "sprite": 4 },
+      "mirror": ["RoadHorizontal"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 49 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Gravel", "sprite": 12 },
       "mirror": []
     },
     {
       "terrain": { "type": "Grass", "sprite": 38 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Gravel", "sprite": 4 },
+      "mirror": ["RoadVertical", "RoadHorizontal"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 37 },
@@ -2801,14 +2806,19 @@
     {
       "terrain": { "type": "Dirt", "sprite": 19 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 2 },
       "mirror": []
     },
     {
       "terrain": { "type": "Dirt", "sprite": 16 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical", "TerrainHorizontal"]
+      "road": { "type": "Cobble", "sprite": 5 },
+      "mirror": [
+        "TerrainVertical",
+        "TerrainHorizontal",
+        "RoadVertical",
+        "RoadHorizontal"
+      ]
     },
     {
       "terrain": { "type": "Water", "sprite": 17 },
@@ -2842,15 +2852,15 @@
     },
     {
       "terrain": { "type": "Grass", "sprite": 18 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 3 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical", "TerrainHorizontal"]
+      "mirror": ["TerrainVertical", "TerrainHorizontal", "RiverHorizontal"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 55 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 3 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "mirror": ["RiverVertical"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 50 },
@@ -3017,7 +3027,7 @@
     {
       "terrain": { "type": "Rough", "sprite": 47 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 11 },
       "mirror": ["TerrainHorizontal"]
     },
     {
@@ -3064,15 +3074,15 @@
     },
     {
       "terrain": { "type": "Grass", "sprite": 49 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 1 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "mirror": ["RiverHorizontal"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 56 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 2 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "mirror": ["RiverVertical"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 52 },
@@ -3233,7 +3243,7 @@
     {
       "terrain": { "type": "Rough", "sprite": 25 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 10 },
       "mirror": ["TerrainVertical"]
     },
     {
@@ -3286,7 +3296,7 @@
     },
     {
       "terrain": { "type": "Grass", "sprite": 54 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 10 },
       "road": { "type": "None", "sprite": 0 },
       "mirror": []
     },
@@ -3317,14 +3327,14 @@
     {
       "terrain": { "type": "Grass", "sprite": 5 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 15 },
       "mirror": ["TerrainVertical"]
     },
     {
       "terrain": { "type": "Snow", "sprite": 2 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Dirt", "sprite": 4 },
+      "mirror": ["RoadVertical"]
     },
     {
       "terrain": { "type": "Snow", "sprite": 47 },
@@ -3449,7 +3459,7 @@
     {
       "terrain": { "type": "Rough", "sprite": 26 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Cobble", "sprite": 10 },
       "mirror": ["TerrainVertical"]
     },
     {
@@ -3502,21 +3512,21 @@
     },
     {
       "terrain": { "type": "Grass", "sprite": 19 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 2 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical"]
+      "mirror": ["TerrainVertical", "RiverHorizontal"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 56 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 12 },
       "road": { "type": "None", "sprite": 0 },
       "mirror": []
     },
     {
       "terrain": { "type": "Grass", "sprite": 52 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 3 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "mirror": ["RiverVertical"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 54 },
@@ -3539,14 +3549,14 @@
     {
       "terrain": { "type": "Snow", "sprite": 6 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Dirt", "sprite": 3 },
+      "mirror": ["RoadHorizontal"]
     },
     {
       "terrain": { "type": "Snow", "sprite": 25 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical"]
+      "road": { "type": "Dirt", "sprite": 4 },
+      "mirror": ["TerrainVertical", "RoadVertical"]
     },
     {
       "terrain": { "type": "Water", "sprite": 16 },
@@ -3581,14 +3591,14 @@
     {
       "terrain": { "type": "Snow", "sprite": 38 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 3 },
       "mirror": ["TerrainVertical", "TerrainHorizontal"]
     },
     {
       "terrain": { "type": "Snow", "sprite": 54 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Dirt", "sprite": 15 },
+      "mirror": ["RoadVertical"]
     },
     {
       "terrain": { "type": "Snow", "sprite": 56 },
@@ -3665,8 +3675,8 @@
     {
       "terrain": { "type": "Rough", "sprite": 24 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical"]
+      "road": { "type": "Cobble", "sprite": 14 },
+      "mirror": ["TerrainVertical", "RoadHorizontal"]
     },
     {
       "terrain": { "type": "Water", "sprite": 6 },
@@ -3730,15 +3740,15 @@
     },
     {
       "terrain": { "type": "Grass", "sprite": 38 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 0 },
       "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical"]
+      "mirror": ["TerrainVertical", "RiverHorizontal"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 19 },
-      "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "river": { "type": "Clear", "sprite": 1 },
+      "road": { "type": "Dirt", "sprite": 14 },
+      "mirror": ["RiverVertical"]
     },
     {
       "terrain": { "type": "Grass", "sprite": 16 },
@@ -3761,14 +3771,14 @@
     {
       "terrain": { "type": "Snow", "sprite": 39 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainHorizontal"]
+      "road": { "type": "Dirt", "sprite": 5 },
+      "mirror": ["TerrainHorizontal", "RoadHorizontal"]
     },
     {
       "terrain": { "type": "Snow", "sprite": 37 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical"]
+      "road": { "type": "Dirt", "sprite": 5 },
+      "mirror": ["TerrainVertical", "RoadVertical"]
     },
     {
       "terrain": { "type": "Water", "sprite": 17 },
@@ -3791,14 +3801,14 @@
     {
       "terrain": { "type": "Snow", "sprite": 27 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 2 },
       "mirror": []
     },
     {
       "terrain": { "type": "Snow", "sprite": 49 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "road": { "type": "Dirt", "sprite": 3 },
+      "mirror": ["RoadVertical", "RoadHorizontal"]
     },
     {
       "terrain": { "type": "Snow", "sprite": 52 },
@@ -3952,15 +3962,20 @@
     },
     {
       "terrain": { "type": "Grass", "sprite": 48 },
-      "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": []
+      "river": { "type": "Clear", "sprite": 2 },
+      "road": { "type": "Dirt", "sprite": 4 },
+      "mirror": ["RiverHorizontal", "RoadHorizontal"]
     },
     {
       "terrain": { "type": "Snow", "sprite": 44 },
-      "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical", "TerrainHorizontal"]
+      "river": { "type": "Clear", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 4 },
+      "mirror": [
+        "TerrainVertical",
+        "TerrainHorizontal",
+        "RiverVertical",
+        "RoadVertical"
+      ]
     },
     {
       "terrain": { "type": "Snow", "sprite": 19 },
@@ -3983,32 +3998,37 @@
     {
       "terrain": { "type": "Snow", "sprite": 38 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainHorizontal"]
+      "road": { "type": "Dirt", "sprite": 4 },
+      "mirror": ["TerrainHorizontal", "RoadHorizontal"]
     },
     {
       "terrain": { "type": "Snow", "sprite": 30 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 12 },
       "mirror": []
     },
     {
       "terrain": { "type": "Snow", "sprite": 29 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 12 },
       "mirror": []
     },
     {
       "terrain": { "type": "Snow", "sprite": 31 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "road": { "type": "Dirt", "sprite": 13 },
       "mirror": []
     },
     {
       "terrain": { "type": "Snow", "sprite": 33 },
       "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical", "TerrainHorizontal"]
+      "road": { "type": "Dirt", "sprite": 3 },
+      "mirror": [
+        "TerrainVertical",
+        "TerrainHorizontal",
+        "RoadVertical",
+        "RoadHorizontal"
+      ]
     },
     {
       "terrain": { "type": "Snow", "sprite": 53 },
@@ -4174,8 +4194,8 @@
     },
     {
       "terrain": { "type": "Snow", "sprite": 26 },
-      "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 10 },
+      "road": { "type": "Dirt", "sprite": 10 },
       "mirror": []
     },
     {
@@ -4390,8 +4410,8 @@
     },
     {
       "terrain": { "type": "Snow", "sprite": 47 },
-      "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 9 },
+      "road": { "type": "Dirt", "sprite": 11 },
       "mirror": ["TerrainVertical"]
     },
     {
@@ -4606,8 +4626,8 @@
     },
     {
       "terrain": { "type": "Sub", "sprite": 47 },
-      "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 10 },
+      "road": { "type": "Dirt", "sprite": 11 },
       "mirror": ["TerrainVertical", "TerrainHorizontal"]
     },
     {
@@ -4816,15 +4836,22 @@
     },
     {
       "terrain": { "type": "Sub", "sprite": 37 },
-      "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 2 },
+      "road": { "type": "Dirt", "sprite": 3 },
       "mirror": []
     },
     {
       "terrain": { "type": "Sub", "sprite": 39 },
-      "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical", "TerrainHorizontal"]
+      "river": { "type": "Clear", "sprite": 2 },
+      "road": { "type": "Dirt", "sprite": 5 },
+      "mirror": [
+        "TerrainVertical",
+        "TerrainHorizontal",
+        "RiverVertical",
+        "RiverHorizontal",
+        "RoadVertical",
+        "RoadHorizontal"
+      ]
     },
     {
       "terrain": { "type": "Sub", "sprite": 61 },
@@ -5026,15 +5053,22 @@
     },
     {
       "terrain": { "type": "Sub", "sprite": 31 },
-      "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 3 },
+      "road": { "type": "Dirt", "sprite": 15 },
       "mirror": []
     },
     {
       "terrain": { "type": "Sub", "sprite": 39 },
-      "river": { "type": "None", "sprite": 0 },
-      "road": { "type": "None", "sprite": 0 },
-      "mirror": ["TerrainVertical", "TerrainHorizontal"]
+      "river": { "type": "Clear", "sprite": 3 },
+      "road": { "type": "Dirt", "sprite": 2 },
+      "mirror": [
+        "TerrainVertical",
+        "TerrainHorizontal",
+        "RiverVertical",
+        "RiverHorizontal",
+        "RoadVertical",
+        "RoadHorizontal"
+      ]
     },
     {
       "terrain": { "type": "Sub", "sprite": 38 },
@@ -5242,7 +5276,7 @@
     },
     {
       "terrain": { "type": "Sub", "sprite": 30 },
-      "river": { "type": "None", "sprite": 0 },
+      "river": { "type": "Clear", "sprite": 10 },
       "road": { "type": "None", "sprite": 0 },
       "mirror": ["TerrainHorizontal"]
     },
@@ -15730,7 +15764,7 @@
     }
   ],
   "objectAttributes": {
-    "count": 3,
+    "count": 53,
     "entries": [
       {
         "header": "AVWmrnd0.def",
@@ -15767,11 +15801,611 @@
         "objectSubType": 0,
         "objectGroup": "",
         "above": 0
+      },
+      {
+        "header": "AVMsawd0.def",
+        "passable": [255, 255, 255, 255, 63, 15],
+        "active": [0, 0, 0, 0, 0, 64],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "Mine",
+        "metaType": "ResourceGenerator",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVMwwhl0.def",
+        "passable": [255, 255, 255, 255, 31, 31],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 21,
+        "objectType": "WaterWheel",
+        "metaType": "Visitable",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVMgodr0.def",
+        "passable": [255, 255, 255, 255, 255, 31],
+        "active": [0, 0, 0, 0, 0, 64],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "Mine",
+        "metaType": "ResourceGenerator",
+        "objectSubType": 6,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLct3g0.def",
+        "passable": [255, 255, 255, 255, 63, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 4,
+        "objectType": "ImpassableCrater",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 1
+      },
+      {
+        "header": "AVLSPTR5.def",
+        "passable": [255, 255, 255, 255, 159, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 4,
+        "objectType": "ImpassableOaktrees",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLtr2d0.def",
+        "passable": [255, 255, 255, 255, 255, 191],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 21,
+        "objectType": "ImpassableTrees",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLtr1d0.def",
+        "passable": [255, 255, 255, 255, 255, 191],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 21,
+        "objectType": "ImpassableTrees",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLtr3d0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 21,
+        "objectType": "ImpassableTrees",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLctds0.def",
+        "passable": [255, 255, 255, 255, 255, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 2,
+        "objectType": "ImpassableCrater",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 1
+      },
+      {
+        "header": "AVXfyth0.def",
+        "passable": [255, 255, 255, 255, 63, 63],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 21,
+        "objectType": "FountainOfYouth",
+        "metaType": "Visitable",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLplm30.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 2,
+        "objectType": "ImpassableTrees",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLpntr6.def",
+        "passable": [255, 255, 255, 159, 31, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 4,
+        "objectType": "ImpassablePinetrees",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLPNTR3.def",
+        "passable": [255, 255, 255, 255, 63, 159],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 4,
+        "objectType": "ImpassablePinetrees",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AvLRD02.def",
+        "passable": [255, 255, 255, 255, 255, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 4,
+        "objectType": "ImpassableRock",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVSfntn0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 21,
+        "objectType": "FountainOfFortune",
+        "metaType": "Visitable",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVTchst0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 255,
+        "objectType": "TreasureChest",
+        "metaType": "Treasure",
+        "objectSubType": 0,
+        "objectGroup": "Treasure",
+        "above": 0
+      },
+      {
+        "header": "AVTcrys0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "Resource",
+        "metaType": "Resource",
+        "objectSubType": 4,
+        "objectGroup": "Treasure",
+        "above": 0
+      },
+      {
+        "header": "AVLlk3s0.def",
+        "passable": [255, 255, 255, 159, 159, 159],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 16,
+        "objectType": "ImpassableLake",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 1
+      },
+      {
+        "header": "AVLman40.def",
+        "passable": [255, 255, 255, 255, 255, 31],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 16,
+        "objectType": "ImpassableMandrake",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVSclvd0.def",
+        "passable": [255, 255, 255, 255, 255, 63],
+        "active": [0, 0, 0, 0, 0, 64],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "SwanPond",
+        "metaType": "Visitable",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVXwelg0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 21,
+        "objectType": "MagicWell",
+        "metaType": "Visitable",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLsh2d0.def",
+        "passable": [255, 255, 255, 255, 255, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableShrub",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLswp60.def",
+        "passable": [255, 255, 255, 255, 255, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 16,
+        "objectType": "ImpassableDeadvegetation",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 1
+      },
+      {
+        "header": "AvLStm1.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 37,
+        "objectType": "ImpassableStump",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AvLStm3.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 37,
+        "objectType": "ImpassableStump",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVWgrix0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "Creature",
+        "metaType": "Creature",
+        "objectSubType": "RoyalGriffin",
+        "objectGroup": "Creatures",
+        "above": 0
+      },
+      {
+        "header": "AVWmagx0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "Creature",
+        "metaType": "Creature",
+        "objectSubType": "ArchMage",
+        "objectGroup": "Creatures",
+        "above": 0
+      },
+      {
+        "header": "AvLdlog.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 37,
+        "objectType": "ImpassableLog",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLct1d0.def",
+        "passable": [255, 255, 255, 255, 255, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableCrater",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 1
+      },
+      {
+        "header": "AVLct3d0.def",
+        "passable": [255, 255, 255, 255, 255, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableCrater",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 1
+      },
+      {
+        "header": "AVLctrd0.def",
+        "passable": [255, 255, 255, 255, 255, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableCrater",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 1
+      },
+      {
+        "header": "avlmtdr5.def",
+        "passable": [255, 255, 255, 255, 159, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableMountain",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "avlmtdr4.def",
+        "passable": [255, 255, 255, 255, 31, 159],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableMountain",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "avlmtdr6.def",
+        "passable": [255, 255, 255, 255, 63, 159],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableMountain",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVWbehx0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "Creature",
+        "metaType": "Creature",
+        "objectSubType": "EvilEye",
+        "objectGroup": "Creatures",
+        "above": 0
+      },
+      {
+        "header": "AVLautr7.def",
+        "passable": [255, 255, 255, 63, 31, 159],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 5,
+        "objectType": "ImpassableOaktrees",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLfl4d0.def",
+        "passable": [255, 255, 255, 255, 255, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableFlowers",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVSutop0.def",
+        "passable": [255, 255, 255, 15, 131, 143],
+        "active": [0, 0, 0, 0, 0, 64],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 255,
+        "objectType": "DragonUtopia",
+        "metaType": "Visitable",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLlk1d0.def",
+        "passable": [255, 255, 255, 1, 1, 241],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableLake",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 1
+      },
+      {
+        "header": "AVLmd1d0.def",
+        "passable": [255, 255, 255, 255, 255, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableMound",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLfl6d0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableFlowers",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVLrk3d0.def",
+        "passable": [255, 255, 255, 255, 255, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "ImpassableRock",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVTgems0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 255,
+        "objectType": "Resource",
+        "metaType": "Resource",
+        "objectSubType": 5,
+        "objectGroup": "Treasure",
+        "above": 0
+      },
+      {
+        "header": "AVTsulf0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "Resource",
+        "metaType": "Resource",
+        "objectSubType": 3,
+        "objectGroup": "Treasure",
+        "above": 0
+      },
+      {
+        "header": "AVTore0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "Resource",
+        "metaType": "Resource",
+        "objectSubType": 2,
+        "objectGroup": "Treasure",
+        "above": 0
+      },
+      {
+        "header": "AVTgold0.def",
+        "passable": [255, 255, 255, 255, 255, 127],
+        "active": [0, 0, 0, 0, 0, 128],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 1,
+        "objectType": "Resource",
+        "metaType": "Resource",
+        "objectSubType": 6,
+        "objectGroup": "Treasure",
+        "above": 0
+      },
+      {
+        "header": "AVLdt3s0.def",
+        "passable": [255, 255, 255, 255, 63, 63],
+        "active": [0, 0, 0, 0, 0, 0],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 16,
+        "objectType": "ImpassableDeadvegetation",
+        "metaType": "ImpassableTerrain",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVSuniv0.def",
+        "passable": [255, 255, 255, 143, 15, 15],
+        "active": [0, 0, 0, 0, 0, 64],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 255,
+        "objectType": "University",
+        "metaType": "Visitable",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVMalch0.def",
+        "passable": [255, 255, 255, 255, 255, 31],
+        "active": [0, 0, 0, 0, 0, 64],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 7,
+        "objectType": "Mine",
+        "metaType": "ResourceGenerator",
+        "objectSubType": 1,
+        "objectGroup": "",
+        "above": 0
+      },
+      {
+        "header": "AVXwtrh0.def",
+        "passable": [255, 255, 255, 255, 255, 15],
+        "active": [0, 0, 0, 0, 0, 240],
+        "allowedLandscapes": 511,
+        "landscapeGroup": 32,
+        "objectType": "WateringHole",
+        "metaType": "Visitable",
+        "objectSubType": 0,
+        "objectGroup": "",
+        "above": 0
       }
     ]
   },
   "objectDetails": {
-    "count": 48,
+    "count": 120,
     "entries": [
       {
         "x": 10,
@@ -16515,25 +17149,6 @@
         "body": { "type": "ImpassableTerrain", "data": null }
       },
       {
-        "x": 25,
-        "y": 19,
-        "z": 0,
-        "oaIndex": 2,
-        "attributes": {
-          "header": "AvLStm1.def",
-          "passable": [255, 255, 255, 255, 255, 127],
-          "active": [0, 0, 0, 0, 0, 0],
-          "allowedLandscapes": 511,
-          "landscapeGroup": 161,
-          "objectType": "ImpassableStump",
-          "metaType": "ImpassableTerrain",
-          "objectSubType": 0,
-          "objectGroup": "",
-          "above": 0
-        },
-        "body": { "type": "ImpassableTerrain", "data": null }
-      },
-      {
         "x": 23,
         "y": 20,
         "z": 0,
@@ -16610,8 +17225,8 @@
         "body": { "type": "ImpassableTerrain", "data": null }
       },
       {
-        "x": 16,
-        "y": 15,
+        "x": 23,
+        "y": 7,
         "z": 0,
         "oaIndex": 2,
         "attributes": {
@@ -16629,8 +17244,65 @@
         "body": { "type": "ImpassableTerrain", "data": null }
       },
       {
-        "x": 18,
-        "y": 14,
+        "x": 23,
+        "y": 8,
+        "z": 0,
+        "oaIndex": 2,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 161,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 22,
+        "y": 8,
+        "z": 0,
+        "oaIndex": 2,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 161,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 21,
+        "y": 8,
+        "z": 0,
+        "oaIndex": 2,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 161,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 21,
+        "y": 9,
         "z": 0,
         "oaIndex": 2,
         "attributes": {
@@ -16649,7 +17321,1385 @@
       },
       {
         "x": 19,
+        "y": 7,
+        "z": 0,
+        "oaIndex": 2,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 161,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 18,
+        "y": 5,
+        "z": 0,
+        "oaIndex": 2,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 161,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 18,
+        "y": 7,
+        "z": 0,
+        "oaIndex": 2,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 161,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 18,
+        "y": 4,
+        "z": 0,
+        "oaIndex": 2,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 161,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 20,
+        "y": 4,
+        "z": 0,
+        "oaIndex": 2,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 161,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 21,
+        "y": 4,
+        "z": 0,
+        "oaIndex": 2,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 161,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 19,
+        "y": 16,
+        "z": 0,
+        "oaIndex": 3,
+        "attributes": {
+          "header": "AVMsawd0.def",
+          "passable": [255, 255, 255, 255, 63, 15],
+          "active": [0, 0, 0, 0, 0, 64],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "Mine",
+          "metaType": "ResourceGenerator",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ResourceGenerator", "data": { "owner": 255 } }
+      },
+      {
+        "x": 6,
+        "y": 10,
+        "z": 0,
+        "oaIndex": 4,
+        "attributes": {
+          "header": "AVMwwhl0.def",
+          "passable": [255, 255, 255, 255, 31, 31],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "WaterWheel",
+          "metaType": "Visitable",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "Visitable", "data": null }
+      },
+      {
+        "x": 13,
+        "y": 7,
+        "z": 0,
+        "oaIndex": 5,
+        "attributes": {
+          "header": "AVMgodr0.def",
+          "passable": [255, 255, 255, 255, 255, 31],
+          "active": [0, 0, 0, 0, 0, 64],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "Mine",
+          "metaType": "ResourceGenerator",
+          "objectSubType": 6,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ResourceGenerator", "data": { "owner": 255 } }
+      },
+      {
+        "x": 15,
+        "y": 13,
+        "z": 0,
+        "oaIndex": 6,
+        "attributes": {
+          "header": "AVLct3g0.def",
+          "passable": [255, 255, 255, 255, 63, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 4,
+          "objectType": "ImpassableCrater",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 1
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 19,
+        "y": 15,
+        "z": 0,
+        "oaIndex": 7,
+        "attributes": {
+          "header": "AVLSPTR5.def",
+          "passable": [255, 255, 255, 255, 159, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 4,
+          "objectType": "ImpassableOaktrees",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 18,
+        "y": 15,
+        "z": 0,
+        "oaIndex": 8,
+        "attributes": {
+          "header": "AVLtr2d0.def",
+          "passable": [255, 255, 255, 255, 255, 191],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "ImpassableTrees",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 21,
+        "y": 16,
+        "z": 0,
+        "oaIndex": 9,
+        "attributes": {
+          "header": "AVLtr1d0.def",
+          "passable": [255, 255, 255, 255, 255, 191],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "ImpassableTrees",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 16,
+        "y": 16,
+        "z": 0,
+        "oaIndex": 10,
+        "attributes": {
+          "header": "AVLtr3d0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "ImpassableTrees",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 5,
+        "y": 6,
+        "z": 0,
+        "oaIndex": 11,
+        "attributes": {
+          "header": "AVLctds0.def",
+          "passable": [255, 255, 255, 255, 255, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 2,
+          "objectType": "ImpassableCrater",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 1
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 7,
+        "y": 6,
+        "z": 0,
+        "oaIndex": 12,
+        "attributes": {
+          "header": "AVXfyth0.def",
+          "passable": [255, 255, 255, 255, 63, 63],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "FountainOfYouth",
+          "metaType": "Visitable",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "Visitable", "data": null }
+      },
+      {
+        "x": 8,
+        "y": 6,
+        "z": 0,
+        "oaIndex": 13,
+        "attributes": {
+          "header": "AVLplm30.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 2,
+          "objectType": "ImpassableTrees",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 8,
+        "y": 5,
+        "z": 0,
+        "oaIndex": 14,
+        "attributes": {
+          "header": "AVLpntr6.def",
+          "passable": [255, 255, 255, 159, 31, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 4,
+          "objectType": "ImpassablePinetrees",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 9,
+        "y": 5,
+        "z": 0,
+        "oaIndex": 15,
+        "attributes": {
+          "header": "AVLPNTR3.def",
+          "passable": [255, 255, 255, 255, 63, 159],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 4,
+          "objectType": "ImpassablePinetrees",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 11,
+        "y": 2,
+        "z": 0,
+        "oaIndex": 16,
+        "attributes": {
+          "header": "AvLRD02.def",
+          "passable": [255, 255, 255, 255, 255, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 4,
+          "objectType": "ImpassableRock",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 21,
+        "y": 12,
+        "z": 0,
+        "oaIndex": 17,
+        "attributes": {
+          "header": "AVSfntn0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "FountainOfFortune",
+          "metaType": "Visitable",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "Visitable", "data": null }
+      },
+      {
+        "x": 12,
+        "y": 13,
+        "z": 0,
+        "oaIndex": 18,
+        "attributes": {
+          "header": "AVTchst0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 255,
+          "objectType": "TreasureChest",
+          "metaType": "Treasure",
+          "objectSubType": 0,
+          "objectGroup": "Treasure",
+          "above": 0
+        },
+        "body": { "type": "Treasure", "data": null }
+      },
+      {
+        "x": 13,
+        "y": 13,
+        "z": 0,
+        "oaIndex": 19,
+        "attributes": {
+          "header": "AVTcrys0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "Resource",
+          "metaType": "Resource",
+          "objectSubType": 4,
+          "objectGroup": "Treasure",
+          "above": 0
+        },
+        "body": {
+          "type": "Resource",
+          "data": { "hasGuardians": null, "quantity": 0 }
+        }
+      },
+      {
+        "x": 21,
+        "y": 7,
+        "z": 0,
+        "oaIndex": 20,
+        "attributes": {
+          "header": "AVLlk3s0.def",
+          "passable": [255, 255, 255, 159, 159, 159],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 16,
+          "objectType": "ImpassableLake",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 1
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 15,
+        "y": 6,
+        "z": 0,
+        "oaIndex": 21,
+        "attributes": {
+          "header": "AVLman40.def",
+          "passable": [255, 255, 255, 255, 255, 31],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 16,
+          "objectType": "ImpassableMandrake",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 2,
+        "y": 10,
+        "z": 0,
+        "oaIndex": 22,
+        "attributes": {
+          "header": "AVSclvd0.def",
+          "passable": [255, 255, 255, 255, 255, 63],
+          "active": [0, 0, 0, 0, 0, 64],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "SwanPond",
+          "metaType": "Visitable",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "Visitable", "data": null }
+      },
+      {
+        "x": 30,
+        "y": 11,
+        "z": 0,
+        "oaIndex": 23,
+        "attributes": {
+          "header": "AVXwelg0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "MagicWell",
+          "metaType": "Visitable",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "Visitable", "data": null }
+      },
+      {
+        "x": 10,
+        "y": 16,
+        "z": 0,
+        "oaIndex": 17,
+        "attributes": {
+          "header": "AVSfntn0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "FountainOfFortune",
+          "metaType": "Visitable",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "Visitable", "data": null }
+      },
+      {
+        "x": 20,
+        "y": 9,
+        "z": 0,
+        "oaIndex": 24,
+        "attributes": {
+          "header": "AVLsh2d0.def",
+          "passable": [255, 255, 255, 255, 255, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableShrub",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 22,
+        "y": 8,
+        "z": 0,
+        "oaIndex": 25,
+        "attributes": {
+          "header": "AVLswp60.def",
+          "passable": [255, 255, 255, 255, 255, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 16,
+          "objectType": "ImpassableDeadvegetation",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 1
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 11,
+        "y": 11,
+        "z": 0,
+        "oaIndex": 9,
+        "attributes": {
+          "header": "AVLtr1d0.def",
+          "passable": [255, 255, 255, 255, 255, 191],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "ImpassableTrees",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 13,
+        "y": 7,
+        "z": 0,
+        "oaIndex": 2,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 161,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 11,
+        "y": 7,
+        "z": 0,
+        "oaIndex": 26,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 37,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 20,
+        "y": 8,
+        "z": 0,
+        "oaIndex": 26,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 37,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 4,
+        "y": 10,
+        "z": 0,
+        "oaIndex": 26,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 37,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 5,
+        "y": 10,
+        "z": 0,
+        "oaIndex": 26,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 37,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 11,
+        "y": 6,
+        "z": 0,
+        "oaIndex": 26,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 37,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 3,
+        "y": 13,
+        "z": 0,
+        "oaIndex": 27,
+        "attributes": {
+          "header": "AvLStm3.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 37,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 17,
+        "y": 11,
+        "z": 0,
+        "oaIndex": 28,
+        "attributes": {
+          "header": "AVWgrix0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "Creature",
+          "metaType": "Creature",
+          "objectSubType": "RoyalGriffin",
+          "objectGroup": "Creatures",
+          "above": 0
+        },
+        "body": {
+          "type": "Creature",
+          "data": {
+            "absodId": null,
+            "quantity": 0,
+            "disposition": "Aggressive",
+            "hasMessageAndTreasure": false,
+            "messageAndTreasure": null,
+            "neverFlees": false,
+            "doesNotGrow": false
+          }
+        }
+      },
+      {
+        "x": 2,
+        "y": 8,
+        "z": 0,
+        "oaIndex": 29,
+        "attributes": {
+          "header": "AVWmagx0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "Creature",
+          "metaType": "Creature",
+          "objectSubType": "ArchMage",
+          "objectGroup": "Creatures",
+          "above": 0
+        },
+        "body": {
+          "type": "Creature",
+          "data": {
+            "absodId": null,
+            "quantity": 0,
+            "disposition": "Aggressive",
+            "hasMessageAndTreasure": false,
+            "messageAndTreasure": null,
+            "neverFlees": false,
+            "doesNotGrow": false
+          }
+        }
+      },
+      {
+        "x": 20,
+        "y": 5,
+        "z": 0,
+        "oaIndex": 30,
+        "attributes": {
+          "header": "AvLdlog.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 37,
+          "objectType": "ImpassableLog",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 12,
+        "y": 5,
+        "z": 0,
+        "oaIndex": 31,
+        "attributes": {
+          "header": "AVLct1d0.def",
+          "passable": [255, 255, 255, 255, 255, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableCrater",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 1
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 14,
+        "y": 3,
+        "z": 0,
+        "oaIndex": 32,
+        "attributes": {
+          "header": "AVLct3d0.def",
+          "passable": [255, 255, 255, 255, 255, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableCrater",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 1
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 11,
+        "y": 6,
+        "z": 0,
+        "oaIndex": 33,
+        "attributes": {
+          "header": "AVLctrd0.def",
+          "passable": [255, 255, 255, 255, 255, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableCrater",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 1
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 13,
+        "y": 6,
+        "z": 0,
+        "oaIndex": 34,
+        "attributes": {
+          "header": "avlmtdr5.def",
+          "passable": [255, 255, 255, 255, 159, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableMountain",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 13,
+        "y": 4,
+        "z": 0,
+        "oaIndex": 35,
+        "attributes": {
+          "header": "avlmtdr4.def",
+          "passable": [255, 255, 255, 255, 31, 159],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableMountain",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 14,
+        "y": 4,
+        "z": 0,
+        "oaIndex": 36,
+        "attributes": {
+          "header": "avlmtdr6.def",
+          "passable": [255, 255, 255, 255, 63, 159],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableMountain",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 22,
+        "y": 7,
+        "z": 0,
+        "oaIndex": 37,
+        "attributes": {
+          "header": "AVWbehx0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "Creature",
+          "metaType": "Creature",
+          "objectSubType": "EvilEye",
+          "objectGroup": "Creatures",
+          "above": 0
+        },
+        "body": {
+          "type": "Creature",
+          "data": {
+            "absodId": null,
+            "quantity": 0,
+            "disposition": "Aggressive",
+            "hasMessageAndTreasure": false,
+            "messageAndTreasure": null,
+            "neverFlees": false,
+            "doesNotGrow": false
+          }
+        }
+      },
+      {
+        "x": 4,
+        "y": 12,
+        "z": 0,
+        "oaIndex": 12,
+        "attributes": {
+          "header": "AVXfyth0.def",
+          "passable": [255, 255, 255, 255, 63, 63],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "FountainOfYouth",
+          "metaType": "Visitable",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "Visitable", "data": null }
+      },
+      {
+        "x": 21,
+        "y": 10,
+        "z": 0,
+        "oaIndex": 38,
+        "attributes": {
+          "header": "AVLautr7.def",
+          "passable": [255, 255, 255, 63, 31, 159],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 5,
+          "objectType": "ImpassableOaktrees",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 21,
+        "y": 8,
+        "z": 0,
+        "oaIndex": 39,
+        "attributes": {
+          "header": "AVLfl4d0.def",
+          "passable": [255, 255, 255, 255, 255, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableFlowers",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 5,
+        "y": 5,
+        "z": 0,
+        "oaIndex": 40,
+        "attributes": {
+          "header": "AVSutop0.def",
+          "passable": [255, 255, 255, 15, 131, 143],
+          "active": [0, 0, 0, 0, 0, 64],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 255,
+          "objectType": "DragonUtopia",
+          "metaType": "Visitable",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "Visitable", "data": null }
+      },
+      {
+        "x": 17,
+        "y": 12,
+        "z": 0,
+        "oaIndex": 26,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 37,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 22,
+        "y": 11,
+        "z": 0,
+        "oaIndex": 26,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 37,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 25,
+        "y": 3,
+        "z": 0,
+        "oaIndex": 41,
+        "attributes": {
+          "header": "AVLlk1d0.def",
+          "passable": [255, 255, 255, 1, 1, 241],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableLake",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 1
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 20,
+        "y": 2,
+        "z": 0,
+        "oaIndex": 42,
+        "attributes": {
+          "header": "AVLmd1d0.def",
+          "passable": [255, 255, 255, 255, 255, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableMound",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 19,
+        "y": 2,
+        "z": 0,
+        "oaIndex": 43,
+        "attributes": {
+          "header": "AVLfl6d0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableFlowers",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 20,
+        "y": 2,
+        "z": 0,
+        "oaIndex": 26,
+        "attributes": {
+          "header": "AvLStm1.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 37,
+          "objectType": "ImpassableStump",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 25,
+        "y": 1,
+        "z": 0,
+        "oaIndex": 10,
+        "attributes": {
+          "header": "AVLtr3d0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "ImpassableTrees",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 23,
+        "y": 3,
+        "z": 0,
+        "oaIndex": 8,
+        "attributes": {
+          "header": "AVLtr2d0.def",
+          "passable": [255, 255, 255, 255, 255, 191],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 21,
+          "objectType": "ImpassableTrees",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 22,
+        "y": 1,
+        "z": 0,
+        "oaIndex": 44,
+        "attributes": {
+          "header": "AVLrk3d0.def",
+          "passable": [255, 255, 255, 255, 255, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "ImpassableRock",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 9,
+        "y": 18,
+        "z": 0,
+        "oaIndex": 18,
+        "attributes": {
+          "header": "AVTchst0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 255,
+          "objectType": "TreasureChest",
+          "metaType": "Treasure",
+          "objectSubType": 0,
+          "objectGroup": "Treasure",
+          "above": 0
+        },
+        "body": { "type": "Treasure", "data": null }
+      },
+      {
+        "x": 10,
+        "y": 18,
+        "z": 0,
+        "oaIndex": 45,
+        "attributes": {
+          "header": "AVTgems0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 255,
+          "objectType": "Resource",
+          "metaType": "Resource",
+          "objectSubType": 5,
+          "objectGroup": "Treasure",
+          "above": 0
+        },
+        "body": {
+          "type": "Resource",
+          "data": { "hasGuardians": null, "quantity": 0 }
+        }
+      },
+      {
+        "x": 11,
+        "y": 18,
+        "z": 0,
+        "oaIndex": 46,
+        "attributes": {
+          "header": "AVTsulf0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "Resource",
+          "metaType": "Resource",
+          "objectSubType": 3,
+          "objectGroup": "Treasure",
+          "above": 0
+        },
+        "body": {
+          "type": "Resource",
+          "data": { "hasGuardians": null, "quantity": 0 }
+        }
+      },
+      {
+        "x": 12,
+        "y": 18,
+        "z": 0,
+        "oaIndex": 47,
+        "attributes": {
+          "header": "AVTore0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "Resource",
+          "metaType": "Resource",
+          "objectSubType": 2,
+          "objectGroup": "Treasure",
+          "above": 0
+        },
+        "body": {
+          "type": "Resource",
+          "data": { "hasGuardians": null, "quantity": 0 }
+        }
+      },
+      {
+        "x": 9,
+        "y": 19,
+        "z": 0,
+        "oaIndex": 48,
+        "attributes": {
+          "header": "AVTgold0.def",
+          "passable": [255, 255, 255, 255, 255, 127],
+          "active": [0, 0, 0, 0, 0, 128],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 1,
+          "objectType": "Resource",
+          "metaType": "Resource",
+          "objectSubType": 6,
+          "objectGroup": "Treasure",
+          "above": 0
+        },
+        "body": {
+          "type": "Resource",
+          "data": { "hasGuardians": null, "quantity": 0 }
+        }
+      },
+      {
+        "x": 12,
+        "y": 21,
+        "z": 0,
+        "oaIndex": 49,
+        "attributes": {
+          "header": "AVLdt3s0.def",
+          "passable": [255, 255, 255, 255, 63, 63],
+          "active": [0, 0, 0, 0, 0, 0],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 16,
+          "objectType": "ImpassableDeadvegetation",
+          "metaType": "ImpassableTerrain",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ImpassableTerrain", "data": null }
+      },
+      {
+        "x": 30,
         "y": 14,
+        "z": 0,
+        "oaIndex": 50,
+        "attributes": {
+          "header": "AVSuniv0.def",
+          "passable": [255, 255, 255, 143, 15, 15],
+          "active": [0, 0, 0, 0, 0, 64],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 255,
+          "objectType": "University",
+          "metaType": "Visitable",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "Visitable", "data": null }
+      },
+      {
+        "x": 7,
+        "y": 19,
+        "z": 0,
+        "oaIndex": 40,
+        "attributes": {
+          "header": "AVSutop0.def",
+          "passable": [255, 255, 255, 15, 131, 143],
+          "active": [0, 0, 0, 0, 0, 64],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 255,
+          "objectType": "DragonUtopia",
+          "metaType": "Visitable",
+          "objectSubType": 0,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "Visitable", "data": null }
+      },
+      {
+        "x": 27,
+        "y": 19,
+        "z": 0,
+        "oaIndex": 51,
+        "attributes": {
+          "header": "AVMalch0.def",
+          "passable": [255, 255, 255, 255, 255, 31],
+          "active": [0, 0, 0, 0, 0, 64],
+          "allowedLandscapes": 511,
+          "landscapeGroup": 7,
+          "objectType": "Mine",
+          "metaType": "ResourceGenerator",
+          "objectSubType": 1,
+          "objectGroup": "",
+          "above": 0
+        },
+        "body": { "type": "ResourceGenerator", "data": { "owner": 255 } }
+      },
+      {
+        "x": 25,
+        "y": 19,
         "z": 0,
         "oaIndex": 2,
         "attributes": {
@@ -16668,22 +18718,22 @@
       },
       {
         "x": 16,
-        "y": 14,
+        "y": 11,
         "z": 0,
-        "oaIndex": 2,
+        "oaIndex": 52,
         "attributes": {
-          "header": "AvLStm1.def",
-          "passable": [255, 255, 255, 255, 255, 127],
-          "active": [0, 0, 0, 0, 0, 0],
+          "header": "AVXwtrh0.def",
+          "passable": [255, 255, 255, 255, 255, 15],
+          "active": [0, 0, 0, 0, 0, 240],
           "allowedLandscapes": 511,
-          "landscapeGroup": 161,
-          "objectType": "ImpassableStump",
-          "metaType": "ImpassableTerrain",
+          "landscapeGroup": 32,
+          "objectType": "WateringHole",
+          "metaType": "Visitable",
           "objectSubType": 0,
           "objectGroup": "",
           "above": 0
         },
-        "body": { "type": "ImpassableTerrain", "data": null }
+        "body": { "type": "Visitable", "data": null }
       }
     ]
   },
